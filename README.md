@@ -250,6 +250,9 @@ Why did IT service resolution time increase this month?
 Which department has the highest asset replacement risk?
 Show workforce productivity trends for the last quarter.
 Which operational metrics need leadership attention this week?
+```
+
+---
 
 ## 6. Core Capabilities
 
@@ -290,6 +293,9 @@ Why has asset allocation delay increased this month?
 
 Possible AI Response:
 Asset allocation delay increased due to a rise in pending approvals, delayed procurement updates, and higher request volume from two departments. The largest delay contributor appears to be approval aging beyond the standard threshold.
+```
+
+---
 
 ### 6.4 Automated Insight Generation
 
@@ -379,6 +385,9 @@ Dashboard / Report / Alert / Assistant
         |
         v
 Business Decision
+```
+
+---
 
 ## 8. Example Conceptual Data Model
 
@@ -397,6 +406,9 @@ This is only a simplified and sanitized sample. It does not represent the actual
   "riskLevel": "medium",
   "insight": "Attrition is higher than the previous quarter and requires leadership review."
 }
+```
+
+Another example:
 
 ```json
 {
@@ -411,12 +423,15 @@ This is only a simplified and sanitized sample. It does not represent the actual
   "riskLevel": "high",
   "insight": "Pending allocations have increased due to delayed approvals and limited available stock."
 }
+```
+
+---
 
 ## 9. Example API Concepts
 
 These are generic reference endpoints only. They do not represent actual production APIs.
 
-```html
+```http
 GET /api/v1/metrics/summary
 GET /api/v1/metrics/trends
 GET /api/v1/insights/anomalies
@@ -424,16 +439,20 @@ GET /api/v1/connectors/status
 POST /api/v1/assistant/query
 POST /api/v1/reports/generate
 GET /api/v1/governance/audit-log
+```
 
 Example request:
+
 ```json
 {
   "question": "Show top operational risks for this month",
   "businessFunction": "Operations",
   "timePeriod": "current_month"
 }
+```
 
 Example response:
+
 ```json
 {
   "summary": "Three operational risk areas require attention this month.",
@@ -455,6 +474,9 @@ Example response:
     }
   ]
 }
+```
+
+---
 
 ## 10. Agentic AI Design
 
