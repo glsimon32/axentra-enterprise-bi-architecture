@@ -786,6 +786,9 @@ axentra-enterprise-bi-architecture/
 │   └── 003-data-security-model.md
 │
 └── NOTICE.md
+```
+
+---
 
 ## 22. Architecture Decision Records
 
