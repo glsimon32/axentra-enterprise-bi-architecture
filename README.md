@@ -120,6 +120,8 @@ The platform vision includes:
 |-----------------------------------------------------------|
 | CXO Dashboard | Department Views | Alerts | AI Assistant   |
 +-----------------------------------------------------------+
+```
+
 
 ---
 
