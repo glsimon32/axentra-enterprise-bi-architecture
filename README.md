@@ -72,6 +72,10 @@ The platform vision includes:
 
 ## 4. High-Level Architecture
 
+![Axentra Architecture Overview](architecture-overview.png)
+
+*Conceptual overview of the Axentra centralized business intelligence platform.*
+
 ```text
 +-----------------------------------------------------------+
 |                  Enterprise Applications                  |
@@ -121,9 +125,6 @@ The platform vision includes:
 | CXO Dashboard | Department Views | Alerts | AI Assistant   |
 +-----------------------------------------------------------+
 ```
-![Axentra Architecture Overview](architecture-overview.png)
-
-*Conceptual overview of the Axentra centralized business intelligence platform.*
 
 ---
 
