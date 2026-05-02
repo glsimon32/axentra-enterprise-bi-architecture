@@ -1,0 +1,35 @@
+[
+  {
+    "sourceSystem": "HRMS",
+    "businessFunction": "Human Resources",
+    "department": "Operations",
+    "metricName": "Employee Attrition Rate",
+    "metricValue": 8.4,
+    "metricUnit": "percentage",
+    "period": "2026-04",
+    "trend": "increasing",
+    "riskLevel": "medium"
+  },
+  {
+    "sourceSystem": "Asset Management",
+    "businessFunction": "IT Operations",
+    "department": "Technology",
+    "metricName": "Pending Asset Allocation Requests",
+    "metricValue": 42,
+    "metricUnit": "count",
+    "period": "2026-04",
+    "trend": "increasing",
+    "riskLevel": "high"
+  },
+  {
+    "sourceSystem": "ITSM",
+    "businessFunction": "Service Operations",
+    "department": "IT Support",
+    "metricName": "Average Resolution Time",
+    "metricValue": 18.5,
+    "metricUnit": "hours",
+    "period": "2026-04",
+    "trend": "increasing",
+    "riskLevel": "medium"
+  }
+]
